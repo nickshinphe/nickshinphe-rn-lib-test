@@ -42,10 +42,10 @@ android.iml
 
 # Cocoapods
 #
-example/ios/Pods
+example/*/ios/Pods
 
 # Ruby
-example/vendor/
+example/*/vendor/
 
 # node.js
 #
@@ -80,3 +80,7 @@ lib/
 # React Native Codegen
 ios/generated
 android/generated
+
+# misc
+#
+*.diff
