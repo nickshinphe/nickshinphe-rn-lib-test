@@ -36,11 +36,13 @@
     "!**/.*"
   ],
   "scripts": {
-    "example": "yarn workspace react-native-phenix-sdk-example",
+    "preinstall": "npm install --prefix example/MobileChannelViewer",
+    "prelint": "npm install",
+    "pretest": "npm run lint",
     "test": "jest",
     "typecheck": "tsc",
     "lint": "eslint \"**/*.{js,ts,tsx}\"",
-    "clean": "del-cli android/build example/*/android/build example/*/android/app/build example/*/ios/build lib",
+    "clean": "rm -rf android/build example/*/android/build example/*/android/app example/*/android/.gradle example/*/ios/build example/*/dist lib",
     "prepare": "bob build",
     "release": "release-it"
   },
@@ -93,7 +95,6 @@
   "workspaces": [
     "example/MobileChannelViewer"
   ],
-  "packageManager": "yarn@3.6.1",
   "jest": {
     "preset": "react-native",
     "modulePathIgnorePatterns": [
