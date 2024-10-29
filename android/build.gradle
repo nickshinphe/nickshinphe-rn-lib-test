@@ -49,7 +49,7 @@ def supportsNamespace() {
 
 android {
   if (supportsNamespace()) {
-    namespace "com.phenixsdk"
+    namespace "com.nickshinphe"
 
     sourceSets {
       main {

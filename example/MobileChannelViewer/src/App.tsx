@@ -1,5 +1,6 @@
 import { StyleSheet, View } from 'react-native';
-import { RNtestViewView } from 'react-native-phenix-sdk';
+import { RNtestViewView } from 'nickshinphe-rn-lib-test';
+//import { RNtestViewView } from '../../../lib/module/';
 
 export default function App() {
   return (

@@ -1,24 +1,22 @@
-# react-native-phenix-sdk
+# nickshinphe-rn-lib-test
 
-React Native Phenix SDK
+React Native Library Test
 
 ## Installation
 
 ```sh
-npm install react-native-phenix-sdk
+npm install nickshinphe-rn-lib-test
 ```
 
 ## Usage
 
-
 ```js
-import { RNtestViewView } from "react-native-phenix-sdk";
+import { RNtestViewView } from 'nickshinphe-rn-lib-test';
 
 // ...
 
-<RNtestViewView color="tomato" />
+<RNtestViewView color="tomato" />;
 ```
-
 
 ## Contributing
 

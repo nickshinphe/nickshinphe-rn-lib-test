@@ -2,7 +2,7 @@
   "compilerOptions": {
     "rootDir": ".",
     "paths": {
-      "react-native-phenix-sdk": ["./src/index"]
+      "nickshinphe-rn-lib-test": ["./src/index"]
     },
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,
