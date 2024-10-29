@@ -1,7 +1,7 @@
 {
-  "name": "react-native-phenix-sdk",
+  "name": "nickshinphe-rn-lib-test",
   "version": "0.1.0",
-  "description": "React Native Phenix SDK",
+  "description": "React Native Library Test",
   "source": "./src/index.tsx",
   "main": "./lib/commonjs/index.js",
   "module": "./lib/module/index.js",
@@ -53,14 +53,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/PhenixRTS/react-native-phenix-sdk.git.git"
+    "url": "git+https://github.com/nickshinphe/nickshinphe-rn-lib-test.git"
   },
-  "author": "PhenixRTS <info@phenixrts.com> (https://github.com/PhenixRTS)",
+  "author": "Nick Shin <nick.shin@phenixrts.com> (https://github.com/nickshinphe)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/PhenixRTS/react-native-phenix-sdk.git/issues"
+    "url": "https://github.com/nickshinphe/nickshinphe-rn-lib-test/issues"
   },
-  "homepage": "https://github.com/PhenixRTS/react-native-phenix-sdk.git#readme",
+  "homepage": "https://github.com/nickshinphe/nickshinphe-rn-lib-test#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
